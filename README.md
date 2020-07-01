@@ -1,14 +1,12 @@
 # Forest_Fire_Predictor
-Forest Fire Occurrence probability is predicted using machine learning. 
+Forest Fire Occurrence Probability is predicted using Machine Learning.
 
-Model used- Logistic regression 
+Models used- train_test_split and LogisticRegression
 
-Languages used- HTML,CSS,JS,Python
+Modules used- Pandas, Numpy, sklearn, Pickle, Warnings
 
-Model is trained using logistic regression and is dumped in a pickle file.
-It is then Deployed in web using Flask.
-3 Attributes are taken into consideration:
-  Temparature,Oxygen and Humidity
-After submitting the values,output will be generated showing the probability of occurrence of forest fire for given values.
+Technologies used- HTML, CSS, JavaScript, Python, Flask, Pycharm
+
+Model is trained using logistic regression and is dumped in a pickle file. It is then Deployed in web using Flask. Three Attributes are taken into consideration: Temperature, Oxygen and Humidity. After submitting the values, output is generated showing the probability of occurrence of forest fire for given values.
 
 Model's accuracy can be further increased by using a csv file with more dataset.
